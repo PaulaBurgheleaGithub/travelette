@@ -4,8 +4,9 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors');
 
-const indexRouter = require('./routes/index');
+const transactionsRouter = require('./routes/transactions');
 const usersRouter = require('./routes/users');
+const categoriesRouter = require('./routes/categories');
 
 const app = express();
 
@@ -18,7 +19,8 @@ app.use(cors());
 
 
 
-app.use('/api', indexRouter);
-app.use('api/users', usersRouter);
+app.use('/api/transactions', transactionsRouter);
+app.use('/api/users', usersRouter);
+app.use('/api/categories', categoriesRouter);
 
 module.exports = app;
