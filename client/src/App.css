@@ -21,6 +21,10 @@
   }
 }
 
+.app-container {
+  display: flex;
+}
+
 nav {
   z-index: 10;
   position:fixed;
@@ -32,13 +36,21 @@ nav {
 nav > ul {
   list-style: none;
   margin: 0;
-
   padding: 20px 10px;
 }
+
 nav > ul > li {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px 10px;
+}
+
+section > ul {
+  background-color: rgb(149, 255, 0);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 200%;
 }
 

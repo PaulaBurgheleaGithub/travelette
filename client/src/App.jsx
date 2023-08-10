@@ -1,21 +1,20 @@
-import { useState } from 'react';
+import './App.css';
+
 import { Routes, Route, Link } from "react-router-dom";
 import Home from './pages/home';
 import Transactions from './pages/Transactions';
+import Transaction from './pages/Transaction';
 import Trips from './pages/Trips';
+import Trip from './pages/Trip';
 import Friends from './pages/Friends';
 import Manage from './pages/Manage';
-
-import './App.css'
 import Inbox from './pages/Inbox';
 
 function App() {
-  // const [transactions, setTransactions] = useState("");
-
   return (
     <>
       <div className="app-container">
-          <nav>
+        <nav>
             <ul className='nav-list'>
               <li>
                 <svg width="24" height="24" fill="currentColor" focusable="false" viewBox="0 0 24 24"><path d="M22.971 13.287 12.514 2.829a.829.829 0 0 0-1.2 0L.857 13.287l1.2 1.2L4.2 12.344v8.228a.86.86 0 0 0 .857.857h13.715a.86.86 0 0 0 .857-.857v-8.228l2.142 2.143 1.2-1.2Zm-5.057 6.428h-12V10.63l6-6 6 6v9.086Z"></path></svg>
@@ -42,11 +41,12 @@ function App() {
                 <Link to="/manage">Manage</Link>
               </li>
             </ul>
-          </nav>
-
+        </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/transactions" element={<Transactions />} />
+          <Route path="/transactions" element={<Transactions />} >
+            <Route path=":id" element={<Transaction/>} />
+          </Route>
           <Route path="/trips" element={<Trips/>} />
           <Route path="/friends" element={<Friends/>} />
           <Route path="/inbox" element={<Inbox/>} />

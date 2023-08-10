@@ -15,12 +15,16 @@
 }
 
 a {
+  text-decoration: none;
+}
+nav > ul > li> a {
   font-weight: 500;
   color: #E2DFDF;
-  text-decoration: inherit;
+  text-decoration: none;
 }
-li:hover,
-a:hover {
+
+svg:hover,
+nav > ul > li> a:hover {
   color: #ffffff;
 }
 
