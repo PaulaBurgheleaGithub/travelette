@@ -1,10 +1,36 @@
 export default function Home() {
   return (
-		<div>
-			<svg width="24" height="24" fill="currentColor" focusable="false" viewBox="0 0 24 24"><path d="M22.971 13.287 12.514 2.829a.829.829 0 0 0-1.2 0L.857 13.287l1.2 1.2L4.2 12.344v8.228a.86.86 0 0 0 .857.857h13.715a.86.86 0 0 0 .857-.857v-8.228l2.142 2.143 1.2-1.2Zm-5.057 6.428h-12V10.63l6-6 6 6v9.086Z"></path></svg>
-			<h2>Travelette App</h2>
+		<section className="home wrapper">
 
-		</div>
+			<section>
+				<div className="last-trip">
+					<h3>Current trip total:</h3>
+					<h4>1,300.000</h4>
+				</div>
+			</section>
+
+			<section className="trips-home">
+				<div className="trip-view show">
+					<svg width="24" height="24" fill="currentColor" focusable="false" viewBox="0 0 24 24"><path fillRule="evenodd" clipRule="evenodd" d="M16.286 6.856V8.57H18V6.856h2.571v12H3.43v-12H6V8.57h1.714V6.856h8.572ZM2.576 5.142H6V2.57h1.714v2.572h8.572V2.57H18v2.572h3.424c.476 0 .862.386.862.861V19.71a.861.861 0 0 1-.862.861H2.576a.861.861 0 0 1-.862-.861V6.003c0-.476.386-.861.862-.861Zm14.567 11.571a1.286 1.286 0 1 0 0-2.571 1.286 1.286 0 0 0 0 2.571Z"></path></svg>
+				</div>
+				<div className="trip-view show">
+					<svg width="24" height="24" fill="currentColor" focusable="false" viewBox="0 0 24 24"><path fillRule="evenodd" clipRule="evenodd" d="M16.286 6.856V8.57H18V6.856h2.571v12H3.43v-12H6V8.57h1.714V6.856h8.572ZM2.576 5.142H6V2.57h1.714v2.572h8.572V2.57H18v2.572h3.424c.476 0 .862.386.862.861V19.71a.861.861 0 0 1-.862.861H2.576a.861.861 0 0 1-.862-.861V6.003c0-.476.386-.861.862-.861Zm14.567 11.571a1.286 1.286 0 1 0 0-2.571 1.286 1.286 0 0 0 0 2.571Z"></path></svg>
+				</div>
+				<div className="trip-view show">
+					<svg width="24" height="24" fill="currentColor" focusable="false" viewBox="0 0 24 24"><path fillRule="evenodd" clipRule="evenodd" d="M16.286 6.856V8.57H18V6.856h2.571v12H3.43v-12H6V8.57h1.714V6.856h8.572ZM2.576 5.142H6V2.57h1.714v2.572h8.572V2.57H18v2.572h3.424c.476 0 .862.386.862.861V19.71a.861.861 0 0 1-.862.861H2.576a.861.861 0 0 1-.862-.861V6.003c0-.476.386-.861.862-.861Zm14.567 11.571a1.286 1.286 0 1 0 0-2.571 1.286 1.286 0 0 0 0 2.571Z"></path></svg>
+				</div>
+				<div className="trip-view show">
+					<svg width="24" height="24" fill="currentColor" focusable="false" viewBox="0 0 24 24"><path fillRule="evenodd" clipRule="evenodd" d="M16.286 6.856V8.57H18V6.856h2.571v12H3.43v-12H6V8.57h1.714V6.856h8.572ZM2.576 5.142H6V2.57h1.714v2.572h8.572V2.57H18v2.572h3.424c.476 0 .862.386.862.861V19.71a.861.861 0 0 1-.862.861H2.576a.861.861 0 0 1-.862-.861V6.003c0-.476.386-.861.862-.861Zm14.567 11.571a1.286 1.286 0 1 0 0-2.571 1.286 1.286 0 0 0 0 2.571Z"></path></svg>
+				</div>
+			</section>
+			<section>
+
+			</section>
+
+			<section>
+				
+			</section>
+		</section>
 	)
 }
 

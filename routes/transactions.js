@@ -13,7 +13,7 @@ const getAllTransaction = (req, res) => {
     .catch(err => res.status(500).send(err));
 };
 
-//returns a transaction based on the key you are serching for, eg /transactions/categories
+//returns a transaction based on the key you are serching for, eg /transactions/categorys
 const selectTransactionByKey = (req, res, key, value) => {
   db(`SELECT * FROM transactions WHERE ${key} = "${value}";`)
     .then(results => {

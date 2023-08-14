@@ -25,10 +25,11 @@ export default function Transaction() {
 			<h2>Transaction Details</h2>
 		</header>
 		<div>
-			<p>Merchant: {transaction.merchant} </p>
-			<p>Amount: {transaction.amount} </p>
-			<p>Currency: {transaction.currency} </p>
-			<p>Category: {transaction.category} </p>
+			<p>Category: {transaction.category} -
+				Merchant: {transaction.merchant} -
+				Amount: {transaction.amount} -
+				Currency: {transaction.currency}
+			</p>
 		</div>
 	</section>
 	)
