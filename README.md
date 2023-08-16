@@ -77,40 +77,40 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
   ```sh
-   git clone https://github.com/github_username/repo_name.git
+    git clone https://github.com/github_username/repo_name.git
   ```
 2. Install NPM packages
   ```sh
-   npm install
+    npm install
   ```
 3. Install client dependencies - This will install client dependencies (React).
-   ```sh
-  cd client
-  npm install
+  ```sh
+    cd client
+    npm install
   ```
 4. Database migration (run this in the main/root folder in a new terminal window) This will create all DB tables in your database.
-   ```sh
-  npm run migrate
+  ```sh
+    npm run migrate
   ```
 5. Navigate to the main and access the MySQL interface in your terminal by running 
   ```sh
-  mysql -u root -p
+    mysql -u root -p
   ```
 6. In your MySQL console, you can run 
   ```sh 
-  use travelette;
+    use travelette;
   ```
 7. Check table Transactions (or any other table) to see the structure of the transactions table.
   ```sh 
-  describe transactions;
+    describe transactions;
   ```
 8. Start server by going to the root folder and running
   ```sh 
-  npm start
+    npm start
   ```
 9. Open a separate terminal window and navigate to the client folder, then run
   ```sh 
-  npm run dev
+    npm run dev
   ```
 
 ### Dependencies
@@ -178,30 +178,21 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Paula Burghelea - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Paula Burghelea - [@email] - paula.burghelea@gmail.com
+PersonalWebsite - [mycupoflatte](https://mycupoflatte.com/)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/PaulaBurgheleaGithub/travelette](https://github.com/users/PaulaBurgheleaGithub/projects/1/views/1)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +215,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-url]: https://github.com/PaulaBurgheleaGithub/travelette/issues
 
 [license-shield]:
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-url]: https://github.com/PaulaBurgheleaGithub/travelette/blob/main/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paula-burghelea/
