@@ -70,6 +70,13 @@ export default function Transactions() {
 			<section>
 			<Outlet />
 			</section>
+			<div id="addNewOverlay">
+				<div className="popUp">
+					<div className="topBar"></div>
+					<div className="addContent"></div>
+					<div className="footerBar"></div>
+				</div>
+			</div>
 		</section>
 
 		</QueryClientProvider>

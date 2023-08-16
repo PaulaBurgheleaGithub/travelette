@@ -28,7 +28,8 @@ export default function Transaction() {
 			<p>Category: {transaction.category} -
 				Merchant: {transaction.merchant} -
 				Amount: {transaction.amount} -
-				Currency: {transaction.currency}
+				Currency: {transaction.currency} -
+				Details: {transaction.description}
 			</p>
 		</div>
 	</section>

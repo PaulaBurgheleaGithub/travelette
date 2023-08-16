@@ -23,23 +23,11 @@ main {
   max-height: 100vh;
   display: flex;
 }
+
 .wrapper {
   margin: 10px;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul { 
-  padding: 0;
-}
-
-nav > ul > li> a {
-  font-weight: 500;
-  color: #E2DFDF;
-  text-decoration: none;
-}
 
 svg:hover,
 nav > ul > li> a:hover {
@@ -67,9 +55,23 @@ nav > ul > li {
   align-self: center;
   padding: 10px;
 }
-li > a {
+nav > ul > li > a {
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
+
+ul { 
+  padding: 0;
+}
+
+nav > ul > li> a {
+  font-weight: 500;
+  color: #E2DFDF;
+  text-decoration: none;
+}
+
 /* NOT WORKING animation classes */
 @media(prefers-reduced-motion) {
   .hidden {
@@ -125,15 +127,18 @@ li > a {
 }
 
 /* transactions component */
+
 .transactionsPage > header {
   display: flex;
   justify-content: space-between;
 }
+
 section > ul {
   display: grid;
   grid-template-columns: auto minmax(1, 8fr);
   background-color: var(--grey-background);
   list-style: none;
+  max-width: 1550px;
   min-width: 1250px;
 }
 
@@ -170,7 +175,9 @@ button {
   justify-self: center;
 }
 
+
 .transactionContent {
+  text-align: center;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
@@ -178,4 +185,8 @@ button {
 .transactionRow {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+.transactionRow:hover{
+  background-color: #D7C1FF;
+  border-radius: 15px;
 }
