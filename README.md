@@ -188,8 +188,11 @@ Distributed under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` for more informa
 <!-- CONTACT -->
 ## Contact
 
-Paula Burghelea - [@email] - paula.burghelea@gmail.com
+Paula Burghelea - paula.burghelea@gmail.com
+
 PersonalWebsite - [mycupoflatte](https://mycupoflatte.com/)
+
+LinkedIn - [linkedin-shield][linkedin-url]
 
 Project Link: [https://github.com/PaulaBurgheleaGithub/travelette](https://github.com/users/PaulaBurgheleaGithub/projects/1/views/1)
 
@@ -203,19 +206,18 @@ Project Link: [https://github.com/PaulaBurgheleaGithub/travelette](https://githu
   - [Express docs](https://expressjs.com/en/api.html)
   - [MySQL docs](https://dev.mysql.com/doc/refman/8.0/en/database-use.html)
   - [React docs](https://reactjs.org/docs/hello-world.html)
-- Make sure you give yourself a grade before turning it in!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[forks-shield]:
+<!-- [forks-shield]:
 [forks-url]: https://github.com/PaulaBurgheleaGithub/travelette/fork
 
 [issues-shield]:
 [issues-url]: https://github.com/PaulaBurgheleaGithub/travelette/issues
 
 [license-shield]:
-[license-url]: https://github.com/PaulaBurgheleaGithub/travelette/blob/main/LICENSE
+[license-url]: https://github.com/PaulaBurgheleaGithub/travelette/blob/main/LICENSE -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paula-burghelea/
