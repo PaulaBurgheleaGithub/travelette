@@ -9,7 +9,7 @@
 <h3 align="center">Travelette App</h3>
 
   <p align="center">
-    Travel wallet, app built to help people track their trip expences
+    Travel wallet, the app that makes tracking your budget for traveling easy to understand
     <br />
     <a href="https://github.com/PaulaBurgheleaGithub/travelette"><strong>Explore the docs »</strong></a>
     <br />
@@ -45,6 +45,7 @@ It will hopefully one day communicate with their back but also with the help of 
 * [![React][React.js]][React-url]
 * [![MySQL][MySQL]][MySQL-url]
 * [![ViteJS][ViteJS]][Vite-url]
+* [![ReactRouter][ReactRouter]][ReactRouter-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,11 +62,11 @@ List things you need to use the software and how to install them.
   ```sh
     npm install npm@latest -g
   ```
-*express & vite
+* express & vite
   ```sh
     npm i express vite
   ```
-*MySQL (you have to have brew installed already, this is the command for MAC users)
+* MySQL (you have to have brew installed already, this is the command for MAC users)
   ```sh
     brew services start mysql 
     mysqladmin -u root password 'root'
@@ -237,3 +238,6 @@ Personal Website - [mycupoflatte.com](https://mycupoflatte.com/)
 
 [ViteJS]: https://img.shields.io/badge/vitejs-purple?logo=vite&color=%23FFFFFF
 [Vite-url]: https://vitejs.dev/
+
+[ReactRouter]: https://img.shields.io/badge/ReactRouter-black?logo=reactrouter&color=%23121212&link=https%3A%2F%2Freactrouter.com%2Fen%2Fmain
+[ReactRouter-url]: https://reactrouter.com/en/main
