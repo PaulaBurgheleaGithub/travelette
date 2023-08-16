@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/PaulaBurgheleaGithub/travelette">
-    <img src="main/client/public/Travalette.png" alt="Logo" width="50" height="50">
+    <img src="https://github.com/PaulaBurgheleaGithub/travelette/blob/main/client/public/Travalette.png" alt="Logo" width="50" height="50">
   </a>
 
 <h3 align="center">Travelette App</h3>
@@ -12,7 +12,7 @@
     <a href="https://github.com/PaulaBurgheleaGithub/travelette"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/PaulaBurgheleaGithub/travelette">View Demo</a>
+    <a href="https://github.com/PaulaBurgheleaGithub/travelette">View Demo (comming soon)</a>
     ·
     <a href="https://github.com/PaulaBurgheleaGithub/travelette/issues">Report Bug</a>
     ·
