@@ -52,24 +52,23 @@ It will hopefully one day communicate with their back but also with the help of 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+List things you need to use the software and how to install them.
 * npm
   ```sh
-  npm install npm@latest -g
+    npm install npm@latest -g
   ```
 *express & vite
   ```sh
-  npm i express vite
+    npm i express vite
   ```
 *MySQL (you have to have brew installed already, this is the command for MAC users)
   ```sh
-  brew services start mysql 
-  mysqladmin -u root password 'root'
+    brew services start mysql 
+    mysqladmin -u root password 'root'
   ```
 
 
@@ -190,11 +189,11 @@ Distributed under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` for more informa
 
 Paula Burghelea - paula.burghelea@gmail.com
 
-PersonalWebsite - [mycupoflatte](https://mycupoflatte.com/)
+Personal Website - [mycupoflatte.com](https://mycupoflatte.com/)
 
-LinkedIn - [linkedin-shield][linkedin-url]
+[Linkedin][linkedin-url]
 
-Project Link: [https://github.com/PaulaBurgheleaGithub/travelette](https://github.com/users/PaulaBurgheleaGithub/projects/1/views/1)
+[Project Link](https://github.com/users/PaulaBurgheleaGithub/projects/1/views/1)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
