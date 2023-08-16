@@ -25,9 +25,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Travelette is a my first full stack app built using React, Node/Express, Vite and MySQL.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The app will help people track their transactions/payments when they travel, be able to check how much they spent in their own currency, be able to share diffrent trip transactions with their friends.
+It should provide various stats about past trips and help people optimise how much they spend when they travel.
+It will hopefully one day communicate with their back but also with the help of external APIs put togheter a budget for a future trip (calculate flight cost, acomodation, food, gifts, etc).
+
+[![Travelette][product-screenshot]][product-screenshot]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -35,7 +40,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![node.js][NodeJS]][Node-url]
+* [![Node][NodeJS]][Node-url]
 * [![Express][Express.js]][Express-url]
 * [![React][React.js]][React-url]
 * [![MySQL][MySQL]][MySQL-url]
@@ -187,7 +192,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Paula Burghelea - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -197,10 +202,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,6 +215,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 - Make sure you give yourself a grade before turning it in!
 
 <!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [forks-shield]:
 [forks-url]: https://github.com/PaulaBurgheleaGithub/travelette/fork
@@ -239,7 +241,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [MySQL-url]: https://www.mysql.com/
 
 [NodeJS]: https://img.shields.io/badge/node.js-white?logo=nodedotjs&color=%23333333
-[Node-url] : https://nodejs.org/en
+[Node-url]: https://nodejs.org/en
 
-[ViteJS] : https://img.shields.io/badge/vitejs-purple?logo=vite&color=%23FFFFFF
+[ViteJS]: https://img.shields.io/badge/vitejs-purple?logo=vite&color=%23FFFFFF
 [Vite-url]: https://vitejs.dev/
