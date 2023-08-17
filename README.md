@@ -29,7 +29,7 @@ Travelette is a my first full stack app built using React, Node/Express, Vite an
 
 The app will help people track their transactions/payments when they travel, be able to check how much they spent in their own currency, be able to share diffrent trip transactions with their friends.
 It should provide various stats about past trips and help people optimise how much they spend when they travel.
-It will hopefully one day communicate with their back but also with the help of external APIs put togheter a budget for a future trip (calculate flight cost, acomodation, food, gifts, etc).
+It will hopefully one day communicate with the user's bank and also (with the help of external APIs) put togheter a budget for a future trip (calculate flight cost, acomodation, food, gifts, etc).
 
 [![Travelette][product-screenshot]][product-screenshot]
 
@@ -133,14 +133,10 @@ List things you need to use the software and how to install them.
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
 Travelette is a my first full stack app built using React, Node/Express, Vite and MySQL.
-
-The app will help people track their transactions/payments when they travel, be able to check how much they spent in their own currency, be able to share diffrent trip transactions with their friends.
-It should provide various stats about past trips and help people optimise how much they spend when they travel.
-It will hopefully one day communicate with their back but also with the help of external APIs put togheter a budget for a future trip (calculate flight cost, acomodation, food, gifts, etc).
 
 _Documentation will be available in the future [Documentation](https://mycupoflatte.com)_
 
@@ -192,7 +188,7 @@ Paula Burghelea - paula.burghelea@gmail.com
 
 Personal Website - [mycupoflatte.com](https://mycupoflatte.com/)
 
-[Linkedin][linkedin-url]
+* [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [Project Link](https://github.com/users/PaulaBurgheleaGithub/projects/1/views/1)
 
