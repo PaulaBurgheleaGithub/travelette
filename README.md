@@ -9,7 +9,7 @@
 <h3 align="center">Travelette App</h3>
 
   <p align="center">
-    Travel wallet, the app that makes tracking your budget for traveling easy to understand
+    Travel wallet, the app that makes tracking the budget for traveling easy to understand
     <br />
     <a href="https://github.com/PaulaBurgheleaGithub/travelette"><strong>Explore the docs »</strong></a>
     <br />
@@ -69,9 +69,13 @@ List things you need to use the software and how to install them.
 * MySQL (you have to have brew installed already, this is the command for MAC users)
   ```sh
     brew services start mysql 
-    mysqladmin -u root password 'root'
+    mysqladmin -u root password 'PASSOWORD OF YOUR CHOICE'
   ```
-
+*Navigate to mysql and create the database locally so that you can run the migrate script later (this will generate the tables)
+  ```sh
+  mysql -u root -p
+  create database travelette;
+  ```
 
 ### Installation
 
@@ -88,27 +92,34 @@ List things you need to use the software and how to install them.
     cd client
     npm install
   ```
-4. Database migration (run this in the main/root folder in a new terminal window) This will create all DB tables in your database.
+4. Add a `.env` file to the project folder (root/main) of this repository containing the MySQL authentication information for MySQL user. For example:
+  ```bash
+  DB_HOST=localhost
+  DB_USER=root
+  DB_NAME=travelette
+  DB_PASS=YOUR_MySQL_PASSWORD
+  ```
+5. Database migration (run this in the main/root folder in a new terminal window) This will create all DB tables in your database. DO NO RUN THIS COMMAND UNLESS YOU HAVE CREATE A DB locally (see Prerequisites).
   ```sh
     npm run migrate
   ```
-5. Navigate to the main and access the MySQL interface in your terminal by running 
+6. Navigate to the main and access the MySQL interface in your terminal by running 
   ```sh
     mysql -u root -p
   ```
-6. In your MySQL console, you can run 
+7. In your MySQL console, you can run 
   ```sh 
     use travelette;
   ```
-7. Check table Transactions (or any other table) to see the structure of the transactions table.
+8. Check table Transactions (or any other table) to see the structure of the transactions table.
   ```sh 
     describe transactions;
   ```
-8. Start server by going to the root folder and running
+9. Start server by going to the root folder and running
   ```sh 
     npm start
   ```
-9. Open a separate terminal window and navigate to the client folder, then run
+10. Open a separate terminal window and navigate to the client folder, then run
   ```sh 
     npm run dev
   ```
@@ -119,6 +130,17 @@ List things you need to use the software and how to install them.
 - `cd client` and run `npm install`. This will install client dependencies (React).
 
 ### Database
+
+- Access the MySQL interface in your terminal by running `mysql -u root -p`
+- Create a new database called travelette: `create database travelette`
+- Add a `.env` file to the project folder of this repository containing the MySQL authentication information for MySQL user. For example:
+
+```bash
+  DB_HOST=localhost
+  DB_USER=root
+  DB_NAME=travelette
+  DB_PASS=YOURPASSWORD
+```
 
 - Run `npm run migrate` in the project folder of this repository, in a new terminal window. This will create all DB tables in your database.
 - Navigate to the main and access the MySQL interface in your terminal by running `mysql -u root -p`
@@ -218,7 +240,7 @@ Personal Website - [mycupoflatte.com](https://mycupoflatte.com/)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paula-burghelea/
 
-[product-screenshot]: "https://github.com/PaulaBurgheleaGithub/travelette/blob/public/iamges/app-transactions-page.png
+[product-screenshot]: https://github.com/PaulaBurgheleaGithub/travelette/blob/main/client/public/app-transactions-page.png
 
 [Express.js]: https://img.shields.io/badge/Express-js?logo=express&logoColor=%23F9F9F9&color=%23F9F9F9
 [Express-url]: https://expressjs.com/

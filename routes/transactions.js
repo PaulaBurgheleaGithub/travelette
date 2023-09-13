@@ -22,6 +22,22 @@ const selectTransactionByKey = (req, res, key, value) => {
     .catch(err => res.status(500).send(err));
 }
 
+//
+function constructSQLUpdate(query, tableName, id) {
+	const updateFields = [];
+	// Check if the query is not empty 
+	if (!query || !Object.keys(query).length ) {
+		return
+	}
+	// Construct the SET clause and gather query parameters
+	for (let key in query) {
+		updateFields.push(`${key} = '${query[key]}'`);
+	}
+	let sql = `UPDATE ${tableName} SET ${updateFields.join(", ")} WHERE id = ${id}`;
+	return sql;
+}
+
+
 //CRUD
 
 /* POST - Create a new transaction */
@@ -67,7 +83,6 @@ router.get('/currency/:value', (req, res) => {
   selectTransactionByKey(req, res, key, value);
 });
 
-// NOT FULLY WORKING, IT'S NOT UPDATING THE CURRENCY
 // `UPDATE transactions SET amount = ${amount}, currency = "${currency}" WHERE id = ${id};`
 //UPDATE transactions SET amount =240, currency = "USD" WHERE id = 3;
 /* PUT - Update category OR amount OR currency*/
