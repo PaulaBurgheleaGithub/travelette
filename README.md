@@ -25,11 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Travelette is a my first full stack app built using React, Node/Express, Vite and MySQL.
+Travelette is my first full-stack app built using React, Node/Express, Vite, and MySQL.
 
-The app will help people track their transactions/payments when they travel, be able to check how much they spent in their own currency, be able to share diffrent trip transactions with their friends.
-It should provide various stats about past trips and help people optimise how much they spend when they travel.
-It will hopefully one day communicate with the user's bank and also (with the help of external APIs) put togheter a budget for a future trip (calculate flight cost, acomodation, food, gifts, etc).
+The app will help people track their transactions/payments when they travel, be able to check how much they spent in their own currency, be able to share different trip transactions with their friends. It should provide various stats about past trips and help people optimize how much they spend when they travel. It will hopefully one day communicate with the user's bank and also (with the help of external APIs) put together a budget for a future trip (calculate flight cost, accommodation, food, gifts, etc).
 
 [![Travelette][product-screenshot]][product-screenshot]
 
