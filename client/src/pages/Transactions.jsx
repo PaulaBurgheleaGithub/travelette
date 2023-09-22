@@ -59,7 +59,7 @@ export default function Transactions() {
 							<Link className="transactionRow" to={`/transactions/${entry.id}`}>
 								<div>{entry.date.split("T")[0]} </div>
 								<div>{entry.merchant} </div>
-								<div>{entry.category} </div>
+								<div>{entry.category_id} </div>
 								<div>{entry.amount} </div>
 								<div>{entry.currency} </div>
 							</Link>
